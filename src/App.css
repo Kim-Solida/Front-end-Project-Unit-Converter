@@ -1,0 +1,96 @@
+body {
+  background-color: #8bb68b;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", 'Segoe UI', sans-serif;
+  font-size: 40px;
+  color: #263226;
+  margin: 50px;
+  text-align: center;
+}
+.selector {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  
+}
+
+.unit-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  background-color: #c2a975;
+  padding: 13px;
+}
+
+
+.unit-option {
+  color: #000000;
+  font-family: "Poppins", 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 5px;
+  padding: 1px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.unit-container {
+  background-color: #f4fff4;
+  border: 3px solid #000000;
+  padding: 50px;
+  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between elements */
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between input and select */
+}
+
+.unit input {
+  width: 200px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  font-size: 18px; /* Increase font size */
+  padding: 10px; /* Add padding */
+  border: 3px solid #839e83;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.unit select {
+  width: 200px; /* Match input width */
+  height: 50px; /* Adjust height */
+  font-size: 16px;
+  border: 3px solid #839e83;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #8bb68b; 
+  color: white; 
+  font-size: 20px;
+  padding: 12px 24px; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 25px; 
+}
+
+button:active {
+  transform: scale(0.95); 
+}
