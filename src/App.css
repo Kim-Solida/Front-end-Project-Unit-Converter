@@ -27,6 +27,7 @@ h1 {
   gap: 100px;
   justify-content: space-evenly;
   font-weight: 10px;
+  cursor: pointer;
 }
 
 .unit-container {
@@ -41,6 +42,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  
 }
 
 .unit {
@@ -61,6 +63,7 @@ h1 {
   border: 3px solid #839e83;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
 }
 
 button {
@@ -111,7 +114,7 @@ button:active {
 
   .unit-container {
     padding: 20px;
-    max-width: 95%;
+    max-width: 75%;
   }
 
   .unit input,
